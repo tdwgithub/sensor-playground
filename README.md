@@ -1,5 +1,5 @@
 # sensor-playground
-Indoor Air-Quality/Sensor Playground Project
+Indoor Air-Quality / Sensor Playground Project
 
 This project is a system that with the appropriate sensors and software can be used to track indoor air-quality.  However in a larger sense, it's design is such that you can use it to host applications for a variety of sensors and interface devices.
 
