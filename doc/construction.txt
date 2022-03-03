@@ -48,11 +48,11 @@ notes in another note about some techniques for soldering that part onto the boa
 ::: What if I need IO or support that the board doesn't provide?
 
 One of the reasons I chose the Feather form-factor is that there are quite a number of Feather processor modules that
-support expansion, via a related specification: "Feather Wing". This specification outlines how Feather modules can
-provide support for expansion modules that are plugged onto the top of them.  You can essentially plug the processor
-into the SensorPlayground PCB, then plug FeatherWings onto the processor module.
+support expansion, via a related specification: "Feather Wing". This specification outlines how Feather processor modules 
+can provide support for expansion modules that are plugged into sockets on top.  Basically, you plug the processor
+module into the SensorPlayground PCB, then plug FeatherWings into the processor module.
 
-Wings provide a nice means of expansion but if you decide you need to add one to your application, you will need to
+Wings provide a nice means of expansion but if you decide you need to add one to your application, you'll need to
 take care to confirm that the FeatherWing you choose won't conflict with other aspects of the existing SensorPlayground
 circuit and PCB design.
 
