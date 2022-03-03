@@ -1,0 +1,60 @@
+Construction Notes, Suggestions, etc.
+
+::: Introduction
+
+As has been mentioned, the design of this project really centers around the idea that you can make it what you want it to be.
+There are connection points throughout the PCB that provide:
+
+- Access the the I2C bus of the processor.
+- Access to the SPI bus of the processor.
+- A UART of the processor.
+- 3.3V
+- 5.0V
+
+::: It's Designed to be a Platform:
+
+The PCB has been laid out with some already-available sensors in mind (from both Adafruit and Sparkfun), but even with that
+orientation, you are not constrained.  For example, you could build a "daughter" or "carrier" board that plugs into one or
+multiple available points on the board.  That carrier could then host any sensors, convertors, displays, etc. that you may
+desire for your project.
+
+Similarly, you are not required to populate things like the encoder, the two board-mount buttons, or the display (see the
+project photos on Hackaday.io for examples).  If you don't need those items for your application, there is nothing in the
+design of the circuit or the PCB that requires you populate them.
+
+Note that there are holes in the PCB, again targeted initially at the sensors that I use.  Once again however, these are
+available for you to help mount anything you want for your project.
+
+::: Processor
+
+As you know, the circuit and PCB have been designed to allow use of either an ESP32 DevKit-style processor module, or
+one of any number of Feather(tm) form-factor modules.  To make this flexibility possible, the Feather form-factor is
+laid out to be *inside* the footprint of the ESP32.  If you want to retain the possibility to use either in your own
+project, you can choose to populate the sockets for both.  Alternatively, if you only plan to use one of those, then
+you can simply avoid populating the other form-factor sockets.
+
+::: Some Surface-Mount (eek!)
+
+While the vast majority of the PCB has been laid out for through-hold components, I made the decision to add the option
+to include one surface-mount component:  A three-pin processor RESET controller.
+
+If your processor module doesn't implement its own RESET control or if it isn't reliable, you can install the 
+surface-mount reset controller.  It's surface-mount, but large enough that it shouldn't be too tough to solder down. 
+It's located on the top side of the PCB, below the processor module.  I'll provide some notes in another note about some 
+techniques for soldering that part onto the board.
+
+
+::: What if I need IO or support that the board doesn't provide?
+
+One of the reasons I chose the Feather form-factor is that there are quite a number of Feather processor modules that
+support expansion, via a related specification: "Feather Wing". This specification outlines how Feather modules can
+provide support for expansion modules that are plugged onto the top of them.  You can essentially plug the processor
+into the SensorPlayground PCB, then plug FeatherWings onto the processor module.
+
+Wings provide a nice means of expansion but if you decide you need to add one to your application, you will need to
+take care to confirm that the FeatherWing you choose won't conflict with other aspects of the existing SensorPlayground
+circuit and PCB design.
+
+
+
+
