@@ -27,7 +27,7 @@ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
 WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH 
 DAMAGE.
 
-PROJECT DESCRIPTION:
+::: PROJECT DESCRIPTION :::
 
 This project is a system that with the appropriate sensors and software can be used to track indoor air-quality.  However in a larger sense, it's design is such that you can use it to host applications for a variety of sensors and interface devices.
 
