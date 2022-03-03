@@ -36,13 +36,13 @@ you can simply avoid populating the other form-factor sockets.
 
 ::: Some Surface-Mount Parts...Eek! (relax, it's optional!)
 
-While the vast majority of the PCB has been laid out for through-hold components, I made the decision to add the option
+While the vast majority of the PCB has been laid out for through-hole components, I made the decision to add the option
 to include one surface-mount component:  A three-pin processor RESET controller.
 
 If your processor module doesn't implement its own RESET control or if it isn't reliable, you can install the 
-surface-mount reset controller.  It's surface-mount, but large enough that it shouldn't be too tough to solder down. 
-It's located on the top side of the PCB, below the processor module.  I'll provide some notes in another note about some 
-techniques for soldering that part onto the board.
+surface-mount reset controller, and a 100K (through-hole) resistor.  The reset controller is large enough that it shouldn't 
+be too tough to solder down. It's located on the top side of the PCB, below the processor module.  I'll provide some 
+notes in another note about some techniques for soldering that part onto the board.
 
 
 ::: What if I need IO or support that the board doesn't provide?
