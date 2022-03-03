@@ -33,7 +33,7 @@ laid out to be *inside* the footprint of the ESP32.  If you want to retain the p
 project, you can choose to populate the sockets for both.  Alternatively, if you only plan to use one of those, then
 you can simply avoid populating the other form-factor sockets.
 
-::: Some Surface-Mount (Eek! Relax, it's optional!)
+::: Some Surface-Mount Parts...Eek! (relax, it's optional!)
 
 While the vast majority of the PCB has been laid out for through-hold components, I made the decision to add the option
 to include one surface-mount component:  A three-pin processor RESET controller.
