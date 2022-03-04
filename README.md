@@ -109,3 +109,5 @@ pretty wide range of IO option boards that should satisfy a pretty wide range of
 I'll be adding some construction guides soon.  These will give you hints about how to go
 about building the version of the Sensor Playground that best suits your application 
 needs.
+
+To find the construction guides, along with tips, etc., look in the "doc" folder above.
