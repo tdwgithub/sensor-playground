@@ -86,14 +86,14 @@ If you have a processor-intensive application, the ESP32 is a great choice.
 The "Feather" modules are a form-factor and pin-functionality specification created
 by AdaFruit.  These modules are available with a wide range of processors, memory, 
 IO, etc. and the pin-out is nearly identical across them all.  To date, I've used
-ESP8266 Feather modules, ESP32 modules (same processor, different form-factor),
-& ARM Cortex M0.  Given the circuit design I've chosen, all of these work on the 
-Sensor Playground board.
+ESP8266 Feather modules, ESP32 modules (same processor as the ESP32 DevKit, 
+different form-factor), & ARM Cortex M0.  Given the circuit design I've chosen, 
+all of these work on the Sensor Playground board.
 
 I chose to focus on I2C, SPI and UART as the primary mechanism for connecting with the
 sensors, displays, and other IO.  This allows for a wide range of devices to be 
 connected, while limiting the amount of digital IO that would otherwise need to be
-provided across the PCB.  There is a small amount of digital IO available on one of 
+provided across the PCB.  There are a few  GPIO pins available on one of 
 the headers (the same pins I use for the encoder and its button, along with the PCB-
 mount push buttons).  
 
