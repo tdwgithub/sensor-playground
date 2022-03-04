@@ -92,6 +92,9 @@ it...
 
 Encoder/Buttons
 
-
+The rotary encoder and buttons provide a means for user input. With these and a display, you 
+can createa pretty rich user experience.  The encoder itself has a button, so with the two
+board-mount buttons, the encoder button and the encoder itself, you have a means to rotate
+between options in a hierarchical menu system.
 
 (INCOMPLETE)
