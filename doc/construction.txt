@@ -20,7 +20,32 @@ For this section, you will need the following components:
 - U2 (LM1117-3.3) Three-terminal regulator
 - C2 (33uF Electrolytic Capacitor)
 - F1 (LittelFuse LVR100) (Optional)
-- R1 (10K-ohm, 14/watt) Resistor.
-- LED1 (???) Green or Red LED
+- R1 (1K-ohm, 14/watt) Resistor.
+- LED1 (Standard 5.0mm through-hole) LED
+- USB_Power1 (DIYMall Micro-USB Power Adapter: https://www.amazon.com/gp/product/B07B5ZDLJY/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
 
-(TO BE CONTINUED)
+1. You'll first need to solder the 5-pin header to the micro-USB power adapter.
+   This header is included with the package.  Make sure to solder the side of
+   the header that has the *shorter* pins into the power adapter board.
+   
+2. Insert the longer pins of the newly-built micro-USB power supply adapter into
+   the Sensor Playground and solder.
+   
+3. Install D1 and solder.  Note the orientation.  The PCB shows a '+' & '-' symbol on
+   either end of the outline.  Make sure to install the end of the diode that has the
+   stripe into the '-' side.
+   
+4. If you want to use a fuse, insert that into the board where "Fuse" has been 
+   labeled.  If you decide you don't need the fuse, you can use a piece of solid-core
+   wire in its place.  Make sure the gauge is reasonable to avoid high resistance
+   and potential heating/melting.
+   
+5. Insert C1 & C2 and solder.  Note that the footprints on the PCB are marked with
+   '+' & '-' symbols.  When inserting the capacitors, make sure you orient them to
+   the correct polarity!  Solder.
+   
+6. Insert the LED and solder.  Again, this is polarity-dependent. Typical through-hole
+   LED's have one side that has been flattened.  That side is typically the negative.
+   
+7. Insert and solder R1 (1K Ohm, 1/4 watt through-hole).
+
