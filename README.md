@@ -46,11 +46,11 @@ There aren't a lot of "required" components, short of perhaps the power supply
 section & the processor module and even that has been designed to give you a
 wide range of choices.  
 
-For example, if you don't have a need for an encoder, you don't need to install
-it, or its supporting pull-ups.  Same holds for the PCB-mount buttons.  As for
+For example if you don't have a need for an encoder you don't need to install
+it or its supporting pull-up resistors.  Same holds for the PCB-mount buttons.  As for
 the sensors, I designed the PCB so that the processor I2C bus, SPI bus and a UART
-are available via sockets or pins, at a number of locations across the board.
-This lets you connect the devices you choose, at the points that make sense to
+are available via sockets or pins at a number of locations across the board.
+This lets you connect the devices you choose at the points that make sense to
 your particular application.  While there are outlines for some of the sensors
 that I chose to use, these are by no means the ones you have to select.
 
