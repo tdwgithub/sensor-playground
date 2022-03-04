@@ -97,4 +97,25 @@ can createa pretty rich user experience.  The encoder itself has a button, so wi
 board-mount buttons, the encoder button and the encoder itself, you have a means to rotate
 between options in a hierarchical menu system.
 
+I'll provide example code to show how this can be accomplished.  If you do choose to install
+the rotary encoder and buttons, here's what you need:
+
+- (1x) ENC1 (Alps EC11E) Rotary Encoder
+- (2x) PB1 & PB2 (6mm, PCB-mount pushbutton)
+- (3x) ER1, ER2 & ER3 (10k ohm, 1/4-watt resistor)
+- (2x) RB1 & RB2 (10k ohm, 1/4-watt resistor)
+- (1x) 0.1" 4-pin make header. (optional)
+
+You should probably install the puull-up resistors (ER1, ER2, ER3, RB1 & RB2) first, as these 
+are the lowest profile components of this section. 
+
+Once you've installed the oull-ups, install the push buttons.  These have 2 pins on either side
+and it doesn't matter which way you choose to install them.  Insert and install both.
+
+Finally, install the encoder.  It has 3 pins on one side and 2 on the other.  Orient the encoder
+accordingly, then solder it in place.
+
+If you have interest in accessing the IO lines that the encoder and buttons use, you can install
+the 4-pin male header (see the list above).  Insert the side with the shorter pins into the PCB
+and solder.
 (INCOMPLETE)
