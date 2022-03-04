@@ -126,5 +126,15 @@ display.  Similarly, you could write your code to make use of the encoder, and n
 display.  It's totally up to you.  What was in my mind during the design was the combine the
 display, buttons and encoder into a nice little menu-driven system.  To each his own... :-)
 
+Everything Else
+
+From here on, what you choose to populate is even more specific to your application requirements.
+In the center of the PCB, you'll find three footprints that provide access to the I2C.  The center
+footprint is pinned-out slightly differently than the outer 2.  This was to allow me to plug in
+a few different sensor boards, whose connectors werent' pinned the same way.  However since you
+can set things up as you need to, this difference gives you a bit of added flexibilty when 
+configuring your application.   In any case, the I2C lines, power and ground are common to each.
+
+More toward the top of the PCB, you'll find another set of three 
 
 (INCOMPLETE)
