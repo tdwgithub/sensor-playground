@@ -64,14 +64,33 @@ the level of flexibility you need, you can choose to populate the sockets for bo
 ESP32 DevKit modules and the Feather modules, or you can elect to populate only the 
 sockets for the style you will use.  
 
+For either the ESP32 DevKit or the Feather modules, you will need to install:
+
+- C3 (0.1uF bypass capacitor)
+- C4 (0.1uF bypass capacitor)
+
 For the ESP32 DevKit modules, you will need:
 
 - (2x) 0.1", 19-pin female socket header (DigiKey PN: ???)
+
+Insert the sockets into each of the *outer* set of holes for U1 (you'll see labels at the 
+bottom of the PCB with the text "ESP32" and just above that "Feather").  Solder each socket
+header.
 
 For Feather form-factor modules, you need:
 
 - (1x) 0.1", 16-pin female socket header (DigiKey PN: ???)
 - (1x) 0.1", 12-pin female socket header (DigiKey PN: ???)
+
+Insert and solder the 12-pin female socket header into the *inner* set of holes on the left
+side of the U1 footprint. Next, insert and solder the 16-pin female socket heaer into the 
+*inner* set of holes on the right side of the U1 footprint.
+
+As far was what I would describe as "required" components, that's about it. Of course,
+if you want to *do* something with the board, you'll probably want to add a bit more to
+it...
+
+Encoder/Buttons
 
 
 
