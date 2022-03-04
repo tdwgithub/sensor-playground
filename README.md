@@ -32,6 +32,9 @@ intentionally structured to make is straightforward for anyone with modest
 soldering skills and a bit of experience with tools like Arduino, to be able
 to construct a project that suits their ideas.
 
+See: https://hackaday.io/project/182619-sensor-playground for more information.
+
+
 It takes a kind-of "landing pad" approach, where you can build up the board 
 and plug-in different kinds of processor modules, sensor sub-modules, displays,
 etc. without the need to solder them directly to the board.  The number of 
