@@ -131,7 +131,22 @@ Everything Else
 Before we get to the specifics, I want to make a few other points about how you can use things
 on this board.
 
-??????  NOT YET WRITTEN
+When it comes to all the connection points for the I2C/SPI/UART and Power, you get to choose 
+whether you want to use:
+
+- Solder your stuff directly, using the holes at those footprints.
+- Use male, 0.1" header pins
+- Use female, 0.1" header sockets.
+- Something else (Not sure what, but you can if you'd like)
+
+Those connection points are yours to use as you like.  Same goes for the mounting holes that
+are scattered across the top 2/3 of the board.  
+
+I designed the PCB to place the display(s) that I use in the upper-right of the PCB, but once
+again, you don't need to use the connector up there (AF-OLED091) for that purpose.
+
+I'm guessing you've realized by now that you can pretty much do what you choose on this board,
+and get something running that you want.  Sorry to keep pounding on that point.
 
 Ok, *now* Everything Else
 
@@ -143,6 +158,13 @@ whose connectors werent' pinned the same way.  However since you can set things 
 this difference gives you a bit of added flexibilty when configuring your application.   In any case, 
 the I2C lines, power and ground are common to each.
 
-More toward the top of the PCB, you'll find another set of three 
+More toward the top of the PCB, you'll find another set of three 0.1" pin footprints (from left to
+right: AF-PM25x1, SJ1 & SJ2).  SJ1 & Sj2 provide access to the SPI lines of the processor, with 2
+different "enable" lines (no power available here, but just across from them are the I2C connectors
+that have 3.3V & GND).  AFPM25x1 brings out a UART (Tx/Rx only), along with +5V & GND.
+
+Inside the large rectangular outline at the top left of the PCB is another 5-pin footprint (PP5).
+This simply provides another connection point for the +5V, +3.3V & GND buses.  
+
 
 (INCOMPLETE)
