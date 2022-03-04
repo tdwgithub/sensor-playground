@@ -68,4 +68,11 @@ For the ESP32 DevKit modules, you will need:
 
 - (2x) 0.1", 19-pin female socket header (DigiKey PN: ???)
 
+For Feather form-factor modules, you need:
+
+- (1x) 0.1", 16-pin female socket header (DigiKey PN: ???)
+- (1x) 0.1", 12-pin female socket header (DigiKey PN: ???)
+
+
+
 (INCOMPLETE)
