@@ -118,4 +118,13 @@ accordingly, then solder it in place.
 If you have interest in accessing the IO lines that the encoder and buttons use, you can install
 the 4-pin male header (see the list above).  Insert the side with the shorter pins into the PCB
 and solder.
+
+Of course, using the encoder and buttons probably makes most sense when used in conjunction with
+a display.  That said, you don't have to.  As an example, you could choose to only install one 
+or both of the PCB-mount buttons and use them to control your code *without* the need for a 
+display.  Similarly, you could write your code to make use of the encoder, and not have a 
+display.  It's totally up to you.  What was in my mind during the design was the combine the
+display, buttons and encoder into a nice little menu-driven system.  To each his own...!
+
+
 (INCOMPLETE)
