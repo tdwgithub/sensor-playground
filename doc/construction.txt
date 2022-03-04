@@ -1,1 +1,26 @@
 Construction notes.
+
+Introducion
+
+The minimum configuration you need for the Sensor Playground includes only:
+
+1. The power-supply section.
+2. The processor module section.
+
+Everything else is your choice.  However, this document outlines some of the 
+steps you'll need to take to pull off a successful build.
+
+
+Power Supply
+
+For this section, you will need the following components:
+
+- D1 (1N4007 Diode).
+- C1 (33uF Electrolytic Capacitor)
+- U2 (LM1117-3.3) Three-terminal regulator
+- C2 (33uF Electrolytic Capacitor)
+- F1 (LittelFuse LVR100) (Optional)
+- R1 (10K-ohm, 14/watt) Resistor.
+- LED1 (???) Green or Red LED
+
+(TO BE CONTINUED)
