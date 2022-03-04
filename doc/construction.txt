@@ -124,7 +124,7 @@ a display.  That said, you don't have to.  As an example, you could choose to on
 or both of the PCB-mount buttons and use them to control your code *without* the need for a 
 display.  Similarly, you could write your code to make use of the encoder, and not have a 
 display.  It's totally up to you.  What was in my mind during the design was the combine the
-display, buttons and encoder into a nice little menu-driven system.  To each his own...!
+display, buttons and encoder into a nice little menu-driven system.  To each his own... :-)
 
 
 (INCOMPLETE)
