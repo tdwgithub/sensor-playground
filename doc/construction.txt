@@ -49,3 +49,7 @@ For this section, you will need the following components:
    
 7. Insert and solder R1 (1K Ohm, 1/4 watt through-hole).
 
+
+
+
+(INCOMPLETE)
