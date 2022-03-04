@@ -23,6 +23,7 @@ For this section, you will need the following components:
 - R1 (1K-ohm, 14/watt) Resistor.
 - LED1 (Standard 5.0mm through-hole) LED
 - USB_Power1 (DIYMall Micro-USB Power Adapter: https://www.amazon.com/gp/product/B07B5ZDLJY/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
+- PJ2 (3-pin male header, optional)
 
 1. You'll first need to solder the 5-pin header to the micro-USB power adapter.
    This header is included with the package.  Make sure to solder the side of
@@ -49,7 +50,22 @@ For this section, you will need the following components:
    
 7. Insert and solder R1 (1K Ohm, 1/4 watt through-hole).
 
+8. If you want to have a convenient place to verify the 5V, 3.3V & GND of the PCB, you
+   can install PJ2.  This is a simple 3-pin 0.1" make header.  Insert the side with the
+   short pins and solder.
 
 
+Processor
+
+Generally speaking, in order to maintain as much flexibility as possible, I recommend 
+that you use female sockets for the processor module(s).  This allows you to remove the
+modules if needed (and there occasions where that is indeed necessary).  Depending on
+the level of flexibility you need, you can choose to populate the sockets for both the
+ESP32 DevKit modules and the Feather modules, or you can elect to populate only the 
+sockets for the style you will use.  
+
+For the ESP32 DevKit modules, you will need:
+
+- (2x) 0.1", 19-pin female socket header (DigiKey PN: ???)
 
 (INCOMPLETE)
