@@ -110,4 +110,5 @@ I'll be adding some construction guides soon.  These will give you hints about h
 about building the version of the Sensor Playground that best suits your application 
 needs.
 
-To find the construction guides, along with tips, etc., look in the "doc" folder above.
+To find the construction guides, along with tips, etc., look in the "doc" folder at the
+top level of this project.
