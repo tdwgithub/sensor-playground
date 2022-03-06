@@ -45,7 +45,9 @@ and at other sources on the InterWebs.  The way you can tell the difference
 between the source code of my own libraries and the Arduino source code of the
 sketches is the filename extensions.  If the file name ends with a ".ino", you
 can assume that's a sketch source file.  If the filename ends in either ".c++",
-".c" or ".h", you can be pretty sure that those are my own libraries.  So, if 
+".c", you can be pretty sure that those are my own libraries.  If a filename 
+has an extension of ".h", that's a toss-up.  I'll try to document where those
+should live, to limit confusion as much as possible.  So, if 
 you want to use my sources, you'll need to follow the instructions from the Web
 about where to locate those files and how to install them into the Arduino 
 environment.
