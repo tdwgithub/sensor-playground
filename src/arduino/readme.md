@@ -22,3 +22,31 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Introduction 
+
+The samples here demonstrate various features of the Sensor Playground.  They
+aren't written as "final" applications, per se.  You'll note that I've tried
+to keep the code fairly straightforward, not doing much of the Computer-Sciency
+stuff I'm typically tempted to do.  The idea is to understand how to use the
+features of the board, not to offer an off-the-rack application solution.
+
+Arduino Libraries
+
+I didn't provide the various 3rd-party libraries that I use in my sketches.
+If I were to do that, I'd probably be violating a ton of copyrights, plus I'd
+just end up duplicating the instructions for their use that the authors have
+already provided.  
+
+I do provide the source and libraries that *I* and personally responsible for.
+If you're not familiar with how to create your own libraries and how to use them
+I'd suggest taking a look here: https://roboticsbackend.com/arduino-create-library/
+and at other sources on the InterWebs.  The way you can tell the difference 
+between the source code of my own libraries and the Arduino source code of the
+sketches is the filename extensions.  If the file name ends with a ".ino", you
+can assume that's a sketch source file.  If the filename ends in either ".c++",
+".c" or ".h", you can be pretty sure that those are my own libraries.  So, if 
+you want to use my sources, you'll need to follow the instructions from the Web
+about where to locate those files and how to install them into the Arduino 
+environment.
+
