@@ -90,9 +90,9 @@ that you use female sockets for the processor module(s).  This allows you to rem
 modules if needed (and there occasions where that is indeed necessary).  Depending on
 the level of flexibility you need, you can choose to populate the sockets for both the
 ESP32 DevKit modules and the Feather modules, or you can elect to populate only the 
-sockets for the style you will use.  
+sockets for the style you'll use.  
 
-For either the ESP32 DevKit or the Feather modules, you will need to install:
+For either the ESP32 DevKit or the Feather modules, you'll need to install:
 
 - C3 (0.1uF bypass capacitor)
 - C4 (0.1uF bypass capacitor)
