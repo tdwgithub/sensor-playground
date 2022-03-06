@@ -38,17 +38,14 @@ If I were to do that, I'd probably be violating a ton of copyrights, plus I'd
 just end up duplicating the instructions for their use that the authors have
 already provided.  
 
-I do provide the source and libraries that *I* and personally responsible for.
+I do provide the source and libraries that *I'm* personally responsible for.
 If you're not familiar with how to create your own libraries and how to use them
 I'd suggest taking a look here: https://roboticsbackend.com/arduino-create-library/
-and at other sources on the InterWebs.  The way you can tell the difference 
-between the source code of my own libraries and the Arduino source code of the
-sketches is the filename extensions.  If the file name ends with a ".ino", you
-can assume that's a sketch source file.  If the filename ends in either ".c++",
-".c", you can be pretty sure that those are my own libraries.  If a filename 
-has an extension of ".h", that's a toss-up.  I'll try to document where those
-should live, to limit confusion as much as possible.  So, if 
-you want to use my sources, you'll need to follow the instructions from the Web
-about where to locate those files and how to install them into the Arduino 
-environment.
+and at other sources on the InterWebs.  
+
+I've separated the Arduino example sketches from the support libraries I've written.
+If you want to use the examples, you'll need to install those libraries into your
+copy of the Arduino environment.
+
+
 
