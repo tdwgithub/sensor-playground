@@ -1,4 +1,32 @@
+
+
 Construction notes.
+
+
+Copyright Notice
+
+Copyright (c) 2022, tdwgithub
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
 
 Introducion
 
@@ -62,9 +90,9 @@ that you use female sockets for the processor module(s).  This allows you to rem
 modules if needed (and there occasions where that is indeed necessary).  Depending on
 the level of flexibility you need, you can choose to populate the sockets for both the
 ESP32 DevKit modules and the Feather modules, or you can elect to populate only the 
-sockets for the style you will use.  
+sockets for the style you'll use.  
 
-For either the ESP32 DevKit or the Feather modules, you will need to install:
+For either the ESP32 DevKit or the Feather modules, you'll need to install:
 
 - C3 (0.1uF bypass capacitor)
 - C4 (0.1uF bypass capacitor)
