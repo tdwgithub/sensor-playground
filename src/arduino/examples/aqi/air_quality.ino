@@ -514,6 +514,9 @@ void loop()
 
         switch (displayState)
         {
+            //
+            // Display CO2, PM2.5 & VOC's on the OLED
+            //
             case 0:
             {
                 display.setCursor(0,0);             
@@ -540,6 +543,9 @@ void loop()
             }
             break;
             
+            //
+            // Display TEMP and HUMIDITY on OLED
+            //
             case 1:
             {    
                 display.setCursor(0,0);
@@ -552,6 +558,11 @@ void loop()
     
                 display.display();
     
+                //
+                // We want to blank the display periodically, since this is an OLED.
+                // and OLED's don't last forever.  So we blank it every sof often for
+                // a bit, then move back to the top
+                //
                 if (TIMER_finished(&displayShiftTimer, OLED_DISPLAY_SHIFT_TIMEOUT_MS))
                 {
                     displayState = 2;
@@ -562,6 +573,10 @@ void loop()
             }
             break;
             
+            //
+            // Blanking period expired?  Set up to display
+            // state zero (CO2, PM2.5 & VOC's)
+            //
             case 2:
             {            
                 if (TIMER_finished(&displayShiftTimer, CLEAR_DISPLAY_TIMEOUT_MS))
