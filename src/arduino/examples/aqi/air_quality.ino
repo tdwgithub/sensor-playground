@@ -505,7 +505,10 @@ void loop()
         TIMER_start(&oledUpdateTimer);
         
     //
-    // Time to update the OLED?
+    // Time to update the OLED?  Since we can't display everyting
+    // at one time on the OLED, we break it up into a couple of 
+    // "screens", with different data on each, including a blank
+    // screen to help extend the OLED lifetime a little.   
     //
     if (TIMER_finished(&oledUpdateTimer, OLED_UPDATE_TIMEOUT_MS))
     {
