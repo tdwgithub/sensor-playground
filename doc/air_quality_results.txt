@@ -2,10 +2,32 @@
 Indoor Air Quality: Some Results
 
 As I've mentioned in other places, the reason I started this project was
-due the fact that I was waking up at night, feeling slightly ill, light-
-headed, etc.  I noticed this during a period where I was sick, but something
-seemed "off".  My wife made the comment that she often wondered about the
-quality of the air in our house and that made me start into this project.
+due the fact that I was waking up at night feeling slightly ill, light-
+headed, etc.  I noticed this even more during a period where I was sick; 
+something just seemed "off".  During this time, my wife made the comment 
+that she had often wondered about the quality of the air in our house.
+Given her comment and what I was experiencing, I started into this project.
 
 What did I find?
 
+The first iteration (while still in breadboard form) included CO2 & VOC
+sensors.  I had already connected it to Adafruit.IO and done a simple 
+dashboard that let me watch the current sensor data, along with some
+historical data.  When I woke up at night, I would grab my phone and take
+a look.  I did this over several nights, since I was waking up frequently
+anyway.  What I found during those nightly looks was that our CO2 levels
+inside were nearly 2000ppm.  Since I had been reading about indoor air
+quality, I knew that was too high, by a good bit in fact.
+
+Indoor CO2 levels should ideally stay below 1000ppm. While this isn't a
+dangerous level, at or above this level, many people start to feel kind
+of dozy, sleepy, light-headed, etc. and these effects intensify as the 
+levels increase.  In the recent years there has been an effort in 
+public schools to monitor CO2 levels and based on the findings, modify
+classroom behaviors in order to control the levels.  CO2 levels are 
+very often tied to the efficiency of the building's air-handling 
+systems (HVAC) and as you would expect, the more people there are in
+a room, the more CO2 is being dumped into that room through simple
+respiration.  If the air-handling system can't exchange stale indoor
+air with fresh air quickly enough, CO2 levels can easily rise above
+recommended levels.
