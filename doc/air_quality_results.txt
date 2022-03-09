@@ -30,4 +30,103 @@ systems (HVAC) and as you would expect, the more people there are in
 a room, the more CO2 is being dumped into that room through simple
 respiration.  If the air-handling system can't exchange stale indoor
 air with fresh air quickly enough, CO2 levels can easily rise above
-recommended levels.
+recommended levels.  The obvious (but not necessarily easy) thing to do
+is to increase the rate of air exchanges in the space you want to control.
+In the case of public schools, doing things like opening windows and doors
+seems to be the main recommendation.  If the problems are significant, 
+work on the HVAC system can be necessary.
+
+In my home, I first needed to determine what actions I could take that 
+would materially impact the CO2 levels.  During one of my middle-of-the-
+night "wake and check the air quality" sessions, it occured to me to try
+to turn on the blower on our air-conditioner.  Since we have a Nest 
+Thermostat and it has the ability to turn the blower on separately from
+whether or not it is heating or cooling at the time, I just turned it on 
+and started watching the CO2 levels.  The levels when I started were 
+around 1800ppm and within about a half hour, they were just below 1000ppm.
+As I was trolling around the Nest app, I found that it can schedule the
+blower to run for some number of minutes within a time of day range. So,
+I started to use that, initially setting time of the blower to be running
+at 1/2 hour, each hour of the day.  That was intentionally aggressive
+since I wasn't sure what would keep levels where I wanted them. Since
+that time, I've been able to work out that running the blower for 
+about 15 minutes each hour keeps the worst-case CO2 levels very near
+1000ppm.  It peaks just prior the blower staring, then drops below
+1000ppm and cycles like that.
+
+Why does my house, with only 2 of us living here, allow CO2 levels to
+get so high?  There's no single answer to that question, though there
+are a few things to be aware of:
+
+- Most homes are not built with specific facilities for controlling a 
+  mix of outdoor & indoor air.  This was especiially true when the
+  energy efficiency of houses wasn't considered an issue.  As a result,
+  outdoor air coming into the house was the result of mechanical air
+  movement inside the house, drawing outdoor air in throught the 
+  numerous leaks the home presented.  Being air-tight just wasn't a
+  consideration for older homes.  The result of this is that a large
+  percentage of air that circulates in older homes (in particular) has
+  been recirculated, with a relatively small percentage being sourced
+  from outdoors.
+  
+- Our house was built around 1941-1942, with no notion of fresh-air
+  intake in its HVAC design and when we moved in, was quite "leaky".
+  We had older windows & doors and the insulation wasn't the best.
+  Over time though, we've replaced all the doors, all the windows and
+  have added more insulation.  The result is that the house has become
+  more sealed.,,reducing its ability to bring fresh air into the space.
+  
+- We also don't keep houseplants.  It turns out that having plants around
+  the house helps to reduce interior CO2.
+  
+What can you do to improve CO2 levels?
+
+As I mentioned above, I was able to significantly impact the overall CO2 
+levels in our home by simply scheduling our HVAC blower to run periodically.
+I realize that's not possible for everyone, so here are a few tips I learned
+while engaged in this project:
+
+1.  When you can, open some windows or doors.
+2.  Get some houseplants that are known to be good CO2 consumers:
+    - Bird's Nest Fern
+    - Snake Plant
+    - Succulents & Cacti
+    - Prayer Plants
+    - See: https://balconygardenweb.com/most-effective-co2-absorbing-houseplants-proven-by-science/
+      for some further suggestions.
+3. Turn on your bathroom vent fans.  (It works, trust me.)
+4. Add a fresh-air intake to your HVAC system.
+
+What about other indoor air-quality readings?
+
+In a typical home, Volatile Organic Compounds (VOC's) aren't usually too much
+of a problem.  That said, individuals do react differently to different sources
+of VOC's.  Think of things such as new carpeting.  You know that smell that 
+permeates the house when you install new carpeting?  It's the result of VOC's.
+New curtains?  VOC's.  Aerosols?  VOC's.  The sensors I've used can provide you
+with an aggregate concentation level, but not levels of specific compounds. 
+Nevertheless, you can see the effects of these (and other) sources of VOC's and
+using that information, you can take steps to reduce them.
+
+Another important air-quality metric for many is particulate-matter.  These 
+are poolutants that are suspended in the air and they can cause various 
+symptoms in different individuals.  Pollen, dust, smoke, etc. are all
+particulate-matter sources.  By tracking the concentrations of these, you can
+again work to remove the sources to reduce their presence in your home.  If
+you use a PM2.5-type sensor, you should be able to see a corrleation between
+the outdoor air quality and your indoor conditions.  I regularly check the
+US government's airnow.gov site.  If you provide it with your zipcode, it will
+produce a display that shows the reported air-quality near your residence.  In
+my own case, when airnow.gov reports a lower air quality value, my PM2.5
+sensor reports an increased value.  
+
+Note that one of the ways to improve CO2 that I mentioned can also have a 
+negative impact on PM2.5, as opening windows & doors will tend to bring 
+more particulate matter into your home.  If you build the Sensor Playground
+and have both CO2 & PM2.5 sensors on it, you should be able to see how one
+impacts the other. Your mileage may vary.  
+
+
+
+
+look at air quality" 
