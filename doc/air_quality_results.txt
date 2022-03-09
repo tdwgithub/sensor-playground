@@ -109,16 +109,16 @@ Nevertheless, you can see the effects of these (and other) sources of VOC's and
 using that information, you can take steps to reduce them.
 
 Another important air-quality metric for many is particulate-matter.  These 
-are poolutants that are suspended in the air and they can cause various 
+are pollutants that are suspended in the air and they can cause various 
 symptoms in different individuals.  Pollen, dust, smoke, etc. are all
 particulate-matter sources.  By tracking the concentrations of these, you can
 again work to remove the sources to reduce their presence in your home.  If
-you use a PM2.5-type sensor, you should be able to see a corrleation between
+you use a PM2.5-type sensor, you should be able to see a correlation between
 the outdoor air quality and your indoor conditions.  I regularly check the
 US government's airnow.gov site.  If you provide it with your zipcode, it will
 produce a display that shows the reported air-quality near your residence.  In
 my own case, when airnow.gov reports a lower air quality value, my PM2.5
-sensor reports an increased value.  
+sensor typically reports an increased concentration.  
 
 Note that one of the ways to improve CO2 that I mentioned can also have a 
 negative impact on PM2.5, as opening windows & doors will tend to bring 
@@ -128,5 +128,3 @@ impacts the other. Your mileage may vary.
 
 
 
-
-look at air quality" 
