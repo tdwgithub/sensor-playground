@@ -27,10 +27,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ::: Introduction
 
 The Sensor Playground was designed to be a fun, easy-to-build platform for you
-to experiment with software, sensors, displays, the IoT, etc.  It has been 
-intentionally structured to make is straightforward for anyone with modest
-soldering skills and a bit of experience with tools like Arduino, to be able
-to construct a project that suits their ideas.
+to experiment with software, sensors, displays, the IoT, etc.  It grew out of
+a project I started after my wife suggested that some of the reasons for how
+we had been feeling might be related to our indoor air-quality. 
+
+It has been intentionally structured to make is straightforward for anyone 
+with modest soldering skills and a bit of experience with tools like Arduino, 
+to be able to construct a project that suits their ideas.
 
 See: https://hackaday.io/project/182619-sensor-playground for more information.
 
