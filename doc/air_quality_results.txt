@@ -36,6 +36,9 @@ In the case of public schools, doing things like opening windows and doors
 seems to be the main recommendation.  If the problems are significant, 
 work on the HVAC system can be necessary.
 
+See: "AQ_Levels.pdf" in this project for some interesting data about
+CO2 levels and their effects.
+
 In my home, I first needed to determine what actions I could take that 
 would materially impact the CO2 levels.  During one of my middle-of-the-
 night "wake and check the air quality" sessions, it occured to me to try
