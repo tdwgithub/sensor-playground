@@ -24,7 +24,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-::: Introduction
+INTRODUCTION
 
 The Sensor Playground was designed to be a fun, easy-to-build platform for you
 to experiment with software, sensors, displays, the IoT, etc.  It grew out of
@@ -43,7 +43,7 @@ and plug-in different kinds of processor modules, sensor sub-modules, displays,
 etc. without the need to solder them directly to the board.  The number and 
 variety of things you can plug in is virtually entirely up to you.
 
-::: Building Your Sensor Playground
+BUILDING YOUR OWN
 
 There aren't a lot of "required" components, short of perhaps the power supply
 section & the processor module and even that has been designed to give you a
@@ -64,7 +64,7 @@ The component mounting types are all through-hole, making it pretty simple to
 solder in what you want and there is a fair amount of space to get your soldering
 iron into the places you need it to go.
 
-::: Surface Mount Components...Eek! (relax, they're optional!)
+SURFACE MOUNT COMPONENTS...! (relax, they're optional!)
 
 I did add one (optional) surface-mount component: A processor reset controller.
 
@@ -74,7 +74,7 @@ three pins and should be relatively easy for those with basic soldering skills a
 a reasonably steady hand to install.  The only other component needed for the reset
 circuit is a 100K, through-hole resistor.  See?  Not so hard after all!
 
-::: Processors
+PROCESSORS
 
 I mentioned that you have flexibility in terms of your choice of processors.  This
 is due to fact that the board has been designed to take one of two common processor
@@ -100,14 +100,14 @@ provided across the PCB.  There are a few  GPIO pins available on one of
 the headers (the same pins I use for the encoder and its button, along with the PCB-
 mount push buttons).  
 
-::: What if I want other IO than just SPI, I2C or UART?
+What if I want other IO than just SPI, I2C or UART?
 
 Glad you asked!  If you elect to use a Feather form-factor processor module, you could
 be in luck!  That specification also allows for the addition of "Feather Wing" expansion
 modules to be plugged onto the top of Feather processor modules.  You can find a
 pretty wide range of IO option boards that should satisfy a pretty wide range of requirements.
 
-::: How do I build this thing?
+How do I build this thing?
 
 I'll be adding some construction guides soon.  These will give you hints about how to go
 about building the version of the Sensor Playground that best suits your application 
