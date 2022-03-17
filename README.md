@@ -1,5 +1,5 @@
 # sensor-playground
-Indoor Air-Quality / Sensor Playground Project
+Indoor Air-Quality Monitor / Sensor Playground Project
 
 Copyright Notice
 
