@@ -32,8 +32,9 @@ Since the project design targets being a "landing pad" for various add-ons
 like sensor boards, displays, etc., the schematic doesn't call out or 
 include any specific sensor, etc.  This implies that the bill of materials
 doesn't specify them either.  Rather, the schematic calls out the contact
-points that I've made available.  With regard to the BOM, I will add 
-elements for the sensors and displays that I chose for my own application(s).
+points that I've made available (via 0.0" header pins or sockets).  With 
+regard to the BOM, I will add elements to the BOM for the sensors and 
+displays that I chose for my own application(s).
 
 PCB
 
@@ -41,8 +42,7 @@ The PCB has been designed as a 2-layer board, using through-hole components
 wherever possible (there are only a few potential exceptions).  The bottom of
 the board floods the unused space with a ground plane, to help avoid noise or
 ground-path issues.  If you choose to modify the PCB layout, I recommend that 
-you remove the ground plane flood first, doing you mods, then re-flood.  Also
+you remove the ground plane flood first, do you mods, then re-flood.  Also
 remember that there are multiple connection points to that plane and so you want
-to be sure those connections are maintained to the flood.  If you intend to 
-remove the ground flood, you must re-create the GND connections that originally
-used it.
+to be sure those connections are maintained to it.  If you intend to remove the 
+ground flood, you must re-create the GND connections that originally used it.
