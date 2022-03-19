@@ -110,7 +110,7 @@ pretty wide range of IO option boards that should satisfy a pretty wide range of
 
 Alternatively, you could build something that uses SPI or I2C to drive an ADC or DAC.  That
 would provide a nice means for gaining analog I/O and would allow the addition of 
-non bus-based sensors.
+non bus-based sensors.  I'm considering designing an add-on to do just that.
 
 How do I build this thing?
 
