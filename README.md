@@ -108,6 +108,10 @@ be in luck!  That specification also allows for the addition of "Feather Wing" e
 modules to be plugged onto the top of Feather processor modules.  You can find a
 pretty wide range of IO option boards that should satisfy a pretty wide range of requirements.
 
+Alternatively, you could build something that uses SPI or I2C to drive an ADC or DAC.  That
+would provide a nice means for gaining analog I/O and would allow the addition of 
+non bus-based sensors.
+
 How do I build this thing?
 
 I'll be adding some construction guides soon.  These will give you hints about how to go
